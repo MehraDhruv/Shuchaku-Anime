@@ -1,45 +1,49 @@
 # 🛍️ Shūchaku Anime Store – E-commerce System Development
 
+<img src="/images/Shuchaku_Anime_logo.png" alt="Shuchaku Anime - Logo" width="400" height="300">
+
 ![Project Status](https://img.shields.io/badge/status-completed-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GU-red.svg)
 ![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Express%20%7C%20MySQL%20%7C%20WordPress-yellowgreen)
 
-The **Shūchaku Anime Store** project is a full-stack web application designed to help a regional anime merchandise business transition into the digital marketplace. Developed for the 1802ICT Systems Development course, the platform aims to streamline operations, enhance customer engagement, and boost nationwide reach.
+The **Shūchaku Anime Store** project is a full-stack web application designed to help a regional anime merchandise business transition into the digital marketplace. Developed as part of the 1802ICT Systems Development course, the platform aims to streamline operations, enhance customer engagement, and boost nationwide reach.
 
 ---
 
 ## 📌 Project Overview
 
-- **Goal**: Digitally transform a physical anime store with e-commerce capabilities.
+- **Objective**: Digitally transform a physical anime store with e-commerce capabilities.
 - **Budget**: AUD $100,000
 - **Timeline**: 20 weeks
-- **Team**: Dhruv Mehra, Hoang Minh Le
+- **Team**: Dhruv Mehra & Hoang Minh Le
 
 ---
 
-## 🚀 Features
+## 🚀 Core Features
 
-- 🛒 **Full E-Commerce Flow**: Product browsing, cart, checkout, and guest purchases  
-- 🎯 **Smart Recommendations**: Based on user behavior and purchase history  
-- 🎁 **Limited Edition Lottery System**: Fair chance to buy rare items  
-- 🧾 **Reward Points**: Earn “Shūchaku Points” redeemable for discounts or gifts  
-- 💬 **Customer Support**: Chatbot and FAQ-based assistance  
-- 🔐 **Secure Transactions**: TLS 1.2, SSL, HTTPS, and digital signature integration  
-- ⭐ **User Reviews & Ratings**: Add credibility and insights for new customers  
-- 📦 **Admin Panel**: Inventory, orders, and content management
+- 🛒 **E-Commerce Functionality**: Product browsing, add to cart, checkout, guest checkout
+- 🎯 **Smart Recommendations**: Based on customer interest and behavior
+- 🎁 **Limited Edition Lottery**: Randomized access to exclusive products
+- 💬 **Live Support**: Chatbot and contact integration
+- 🔐 **Secure Transactions**: HTTPS, SSL, TLS 1.2, encrypted credentials
+- ⭐ **Ratings & Reviews**: Viewable by all users
+- 🧾 **Loyalty Program**: Earn and redeem Shūchaku Points
+- 📦 **Admin Dashboard**: Inventory, content, and user management
 
 ---
 
-## 🧱 Architecture
+## 🧱 Architecture Overview
 
-- **3-Tier Architecture**:  
-  - **Presentation Layer**: React.js, WordPress  
-  - **Application Layer**: Express.js, PHP (Laravel)  
-  - **Data Layer**: MySQL
+- **Client-Server Architecture (3-tier)**:
+  - **Presentation Layer**: React.js, WordPress
+  - **Application Layer**: Express.js, PHP (Laravel)
+  - **Data Layer**: MySQL, WordPress CMS
 
-- **Deployment Strategy**: Parallel deployment with legacy support  
-- **Security**: Asymmetric encryption, SSL certificates, access control lists  
-- **Data Migration**: From Excel sheets to normalized SQL database
+- **Security Measures**:
+  - Access Control Lists (ACLs)
+  - Public/Private Key Encryption
+  - Digital Certificates
+  - TLS 1.2, HTTPS, SSL
 
 ---
 
@@ -47,28 +51,28 @@ The **Shūchaku Anime Store** project is a full-stack web application designed t
 
 ### 💻 Frontend
 - React.js
+- WordPress
 - Adobe Photoshop
-- WordPress CMS
 
 ### ⚙️ Backend
 - Express.js
 - PHP (Laravel)
 - MySQL
 
-### 📦 Dev Tools
+### 🧰 Dev Tools
 - Visual Studio Code
-- Git & GitHub (CVS versioning)
+- Git & GitHub (CVS version control)
 - Chrome DevTools
-- Lighthouse (Performance)
+- Lighthouse
 
-### 📈 Project Tools
-- Asana (Task management)
-- Microsoft Teams & Outlook
-- OneDrive (File Sharing)
+### 📈 Project Management
+- Asana
+- Microsoft Teams / Outlook
+- OneDrive
 
 ---
 
-## 🔍 Testing
+## ✅ Testing
 
 | Module              | Tool                 | Status     |
 |---------------------|----------------------|------------|
@@ -91,30 +95,56 @@ The **Shūchaku Anime Store** project is a full-stack web application designed t
 
 ---
 
-## 📦 Deployment Highlights
+## 🚀 Deployment Plan
 
-- ✅ Parallel deployment with legacy store
-- 🔐 HTTPS + TLS 1.2 encryption
-- 📋 User training for staff, management, IT
-- 🧩 Change & Version Control via CVS
-- 🔄 Seamless Excel → SQL data conversion
+- **Data Migration**: Excel → SQL (validated and sanitized)
+- **Deployment Method**: Parallel deployment (old & new systems active)
+- **Environment Setup**: Web server, app server, database, firewalls
+- **Training**: Admin, retail, and IT staff with system/user documentation
+- **Version Control**: CVS and Git for rollback and history
 
 ---
 
-## 🤝 Contributors
+## 🖼️ Visual Showcase
 
-- **Dhruv Mehra** – Systems Analyst, Developer  
-- **Hoang Minh Le** – Project Manager, Business Analyst
+### 🧱 System Network Architecture
+
+A high-level overview of how different stakeholders (Store, Bank, Customer, and Online Platform) connect to the system.
+
+![System Network Architecture](/images/architecture-diagram.png)
+
+---
+
+### 🖥️ UI Storyboards
+
+#### 🏠 Homepage
+Showcases product categories, search bar, and banners.
+
+![Storyboard 1 - Homepage](/images/storyboard1-home.png)
+
+#### 📄 Product Details Page
+Detailed info, variants, quantity, reviews, and cart actions.
+
+![Storyboard 2 - Product View](/images/storyboard2-product.png)
+
+#### 🛒 Shopping Cart
+Editable cart items, quantity, total price, and checkout link.
+
+![Storyboard 3 - Cart](/images/storyboard3-cart.png)
+
+#### 💳 Checkout Page
+Displays address, cart summary, voucher field, and payment entry.
+
+![Storyboard 4 - Checkout](/images/storyboard4-checkout.png)
+
+#### 🚚 Shipping Information Form
+Editable form for address, name, phone, and location.
+
+![Storyboard 5 - Shipping Form](/images/storyboard5-shipping.png)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-For queries or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/dhruv-mehra/) or email.
 
