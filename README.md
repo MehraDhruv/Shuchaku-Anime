@@ -142,9 +142,5 @@ Editable form for address, name, phone, and location.
 
 ![Storyboard 5 - Shipping Form](/images/storyboard5-shipping.png)
 
----
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
